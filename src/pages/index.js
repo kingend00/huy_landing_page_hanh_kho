@@ -47,7 +47,7 @@ class IndexPage extends Component {
     })
     return (
       <Layout page={"home"}>
-        <SEO title="Trang chủ" image={this.state.modal.image} description="Trang chủ" />
+        <SEO title="Trang chủ" image={indexData.home_items[0].image} description="Trang chủ" />
         <h1 className="title">{indexData.title}</h1>
         <div className="home-main">
           <div className="text">{indexData.text}</div>
