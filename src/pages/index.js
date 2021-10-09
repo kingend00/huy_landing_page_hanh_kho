@@ -48,17 +48,11 @@ class IndexPage extends Component {
     return (
       <Layout page={"home"}>
         <meta property="og:type" content="Hành phi Nhung Việt" />
-        <meta
-          property="og:title"
-          content="Hành phi Nhung Việt"
-        />
-        <meta
-          property="og:description"
-          content="Hành khô"
-        />
+        <meta property="og:title" content="Hành phi Nhung Việt" />
+        <meta property="og:description" content="Hành khô" />
         <meta
           property="og:image"
-          content={indexData.home_items[0].image}
+          content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
         />
         <SEO
           title="Trang chủ"
