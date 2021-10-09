@@ -47,7 +47,24 @@ class IndexPage extends Component {
     })
     return (
       <Layout page={"home"}>
-        <SEO title="Trang chủ" image={indexData.home_items[0].image} description="Trang chủ" />
+        <meta property="og:type" content="Hành phi Nhung Việt" />
+        <meta
+          property="og:title"
+          content="Hành phi Nhung Việt"
+        />
+        <meta
+          property="og:description"
+          content="Hành khô"
+        />
+        <meta
+          property="og:image"
+          content={indexData.home_items[0].image}
+        />
+        <SEO
+          title="Trang chủ"
+          image={indexData.home_items[0].image}
+          description="Trang chủ"
+        />
         <h1 className="title">{indexData.title}</h1>
         <div className="home-main">
           <div className="text">{indexData.text}</div>
