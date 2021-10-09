@@ -47,6 +47,7 @@ class IndexPage extends Component {
     })
     return (
       <Layout page={"home"}>
+        <meta property="og:url" content="https://kingend00.github.io/huy_landing_page_hanh_kho/" />
         <meta property="og:type" content="Hành phi Nhung Việt" />
         <meta property="og:title" content="Hành phi Nhung Việt" />
         <meta property="og:description" content="Hành khô" />
