@@ -47,14 +47,6 @@ class IndexPage extends Component {
     })
     return (
       <Layout page={"home"}>
-        <meta property="og:url" content="https://kingend00.github.io/huy_landing_page_hanh_kho/" />
-        <meta property="og:type" content="Hành phi Nhung Việt" />
-        <meta property="og:title" content="Hành phi Nhung Việt" />
-        <meta property="og:description" content="Hành khô" />
-        <meta
-          property="og:image"
-          content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
-        />
         <SEO
           title="Hành phi Nhung Việt"
           image="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
