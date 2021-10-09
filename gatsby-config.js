@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/huy_landing_page_hanh_kho",
   siteMetadata: {
     title: `Crafty Co | Web Development`,
     titleTemplate: "%s",

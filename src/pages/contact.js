@@ -8,7 +8,7 @@ class ContactPage extends Component {
       <Layout page={"contact"}>
         <h1 className="title">{contactData.title}</h1>
         <div className="text">
-          We would love to hear from you. Drop us a line.
+        {contactData.description}
         </div>
         <div className="contact-grid-container">
           <div className="contact-grid-item">
