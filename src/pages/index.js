@@ -56,9 +56,9 @@ class IndexPage extends Component {
           content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
         />
         <SEO
-          title="Trang chủ"
-          image={indexData.home_items[0].image}
-          description="Trang chủ"
+          title="Hành phi Nhung Việt"
+          image="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
+          description="Hành phi Nhung Việt"
         />
         <h1 className="title">{indexData.title}</h1>
         <div className="home-main">
