@@ -6,7 +6,7 @@ module.exports = {
     description: `We're on a mission to make the web beautiful.`,
     image: "/logo.png",
     twitterUsername: "@Simplecodehq",
-    siteUrl: "",
+    siteUrl: "https://kingend00.github.io/huy_landing_page_hanh_kho",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

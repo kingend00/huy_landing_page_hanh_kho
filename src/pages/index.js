@@ -49,7 +49,7 @@ class IndexPage extends Component {
       <Layout page={"home"}>
         <SEO
           title="Hành phi Nhung Việt"
-          image="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
+          image="images/hanh_kho_1.jpg"
           description="Hành phi Nhung Việt"
         />
         <h1 className="title">{indexData.title}</h1>
